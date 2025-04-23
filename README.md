@@ -23,7 +23,7 @@
 
 <!-- <img src="md_contents/star.png" alt="Star Repo" width="50" /> Leave a star -->
 <p align="center">
-  <a href="https://github.com/username/repo/stargazers">
+  <a href="https://github.com/Mahendranath-Porandla/wupff/stargazers">
     <img src="md_contents/star.png" alt="Star Repo" width="50" />
   </a>
 <p align="center" style="font-size: 16px; font-style: italic;">
