@@ -152,7 +152,7 @@ def send_sms(target, message, config):
         print(f"[SMS] Successfully sent to {target} (SID: {sms.sid})")
         return True
     except TwilioRestException as e:
-        print(f"[SMS] Failed: Twilio error - {e}") # Check logs for specifics (verification, DLT etc.)
+        print(f"[SMS] Failed: Twilio error - {e}") 
         return False
     except Exception as e:
         print(f"[SMS] Failed to send: {e}")
@@ -342,7 +342,7 @@ def send(
         michael_quote = random.choice(MICHAEL_QUOTES)
         nl = '\n'
         final_message = f"{original_message} {nl*2} {michael_quote}"
-        #print(f"🚨 MICHAEL SCOTT CHAOS MODE ACTIVATED! {nl*2} Message: '{final_message}'")
+        
 
     # --- Target Handling ---
     activate_email, activate_sms, activate_x, activate_telegram = False, False, False, False
