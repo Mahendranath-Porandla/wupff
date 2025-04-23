@@ -11,9 +11,9 @@
 <p align="center">
   You know WUPHF from The Office? Ryan's billion-dollar idea that crashed faster than... well, faster than most of Ryan's ideas? I kinda built it. In Python. It's called WUPFF now. It takes your message and SHOUTS IT EVERYWHERE. Because sometimes, subtlety is overrated. (And because it was funny to try.)
   
-<div style="text-align: center;">
+<p align="center">
   <img src="md_contents/michael_sgtm.gif" alt="Alternate text" width="200"/>
-</div>
+</p>
 
 
 </p>
