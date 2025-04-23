@@ -296,7 +296,7 @@ setup_database()
 def send(
     message: str = typer.Argument(..., help="The message to WUPFF."),
     target: str = typer.Option("ALL", "--target", "-t", help="Target: Email, Phone (+1...), X @handle, telegram:ID, or 'ALL'"),
-    mode: str = typer.Option("Normal", "--mode", "-m", help="Mode: Normal, Schrute, Kelly, Chaos"),
+    mode: str = typer.Option("Normal", "--mode", "-m", help="Mode: Normal, Schrute, Kelly, Michael"),
 ):
     """
     Sends a WUPFF notification. Annoyingly.
@@ -332,16 +332,17 @@ def send(
     # --- Apply Character Modes ---
     if mode_lower == "schrute":
         fact = random.choice(SCHRUTE_FACTS)
-        final_message = f"{original_message} {fact}"
+        nl = '\n'
+        final_message = f"{original_message} {nl*2} {fact}"
     elif mode_lower == "kelly":
         comment = random.choice(KELLY_COMMENTS)
-        nl = '\n' # Add some spacing for Kelly's comments if desired
+        nl = '\n'
         final_message = f"{original_message} {nl*2} {comment}"
-    elif mode_lower == "chaos":
-        chaos_quote = random.choice(MICHAEL_QUOTES)
-        final_message = chaos_quote
-        target = "ALL" # Force target to ALL for Chaos mode
-        print(f"🚨 MICHAEL SCOTT CHAOS MODE ACTIVATED! Message: '{chaos_quote}' -> Targeting ALL defaults! 🚨")
+    elif mode_lower == "michael":
+        michael_quote = random.choice(MICHAEL_QUOTES)
+        nl = '\n'
+        final_message = f"{original_message} {nl*2} {michael_quote}"
+        #print(f"🚨 MICHAEL SCOTT CHAOS MODE ACTIVATED! {nl*2} Message: '{final_message}'")
 
     # --- Target Handling ---
     activate_email, activate_sms, activate_x, activate_telegram = False, False, False, False

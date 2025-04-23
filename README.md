@@ -84,7 +84,7 @@ Need Python 3.
 1.  **Get Code:**
     ```bash
     git clone https://github.com/Mahendranath-Porandla/wupff.git
-    cd wupff_project
+    cd wupff
     ```
 
 2.  **Virtual Env:** (Don't be like Kevin skipping steps with the chili.)
