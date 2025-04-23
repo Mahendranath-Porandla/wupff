@@ -50,7 +50,6 @@ def setup_database():
     """Creates the log database and table if they don't exist."""
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
-    # Added telegram_status column
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS wupff_log (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -92,7 +91,7 @@ def log_wupff_activity(timestamp, message, target, mode, results):
             'Success' if results.get('telegram') else 'Fail/Skip'
         ))
         conn.commit()
-        print("[LOG] WUPFF activity recorded in database.")
+        print("[LOG] WUPFF! activity recorded in database.")
     except Exception as e:
         print(f"[LOG] Failed to write to database: {e}")
     finally:
