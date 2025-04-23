@@ -20,6 +20,23 @@
 
 ---
 
+
+<!-- <img src="md_contents/star.png" alt="Star Repo" width="50" /> Leave a star -->
+<p align="center">
+  <a href="https://github.com/username/repo/stargazers">
+    <img src="md_contents/star.png" alt="Star Repo" width="50" />
+  </a>
+<p align="center" style="font-size: 16px; font-style: italic;">
+  Dwight would want you to leave a star.<br/>
+  Do it for <strong>Schrute Farms</strong>. 
+</p>
+
+</p>
+
+
+---
+
+
 ## 🔑 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -151,3 +168,5 @@ Example:
 ```bash
 python3 wupff.py 'You have been Wupffed!' --target ALL --mode Normal
 ```
+
+⭐ [Star this repo](https://github.com/username/repo/stargazers)
