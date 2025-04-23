@@ -71,7 +71,7 @@ Why be normal when you can be... *them*?
   
     <img src="md_contents/kelly.gif" alt="Alternate text" width="200"/>
 
-*   `--mode Chaos`
+*   `--mode Michael`
   
     <img src="md_contents/micheal.gif" alt="Alternate text" width="200"/>
 
