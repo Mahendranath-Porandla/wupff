@@ -43,9 +43,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
   </video>
  -->
 
-  <div style="text-align: center;">
+<p align="center">
   <img src="md_contents/ryan_iluv_it.gif" alt="Alternate text" width="200"/>
-  </div>
+</p>
 
 </p>
 
