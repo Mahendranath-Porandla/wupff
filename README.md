@@ -35,13 +35,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 <p align="center">
   <!-- TODO: Replace this text with a seizure-inducing GIF of the script running -->
-  <!-- <img src="" alt="WUPFF Demo GIF - It's Alive... Mostly" width="600"/> -->
   <em>Why tell you. When I can show you(I just sent my self a Wupff!)</em>
   <br>
-  <video width="320" height="240" controls>
+  <img src="md_contents/demo.gif" alt="WUPFF Demo GIF - It's Alive... Mostly" width="600"/>
+  <!-- <video width="320" height="240" controls>
     <source src="md_contents/demo.mp4" type="video/mp4">
   </video>
-
+ -->
 
   <div style="text-align: center;">
   <img src="md_contents/ryan_iluv_it.gif" alt="Alternate text" width="200"/>
