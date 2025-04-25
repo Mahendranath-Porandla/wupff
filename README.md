@@ -169,4 +169,4 @@ Example:
 python3 wupff.py 'You have been Wupffed!' --target ALL --mode Normal
 ```
 
-⭐ [Star this repo](https://github.com/username/repo/stargazers)
+⭐ [Star this repo](https://github.com/Mahendranath-Porandla/wupff/stargazers)
